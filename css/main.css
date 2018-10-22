@@ -1,0 +1,48 @@
+html{
+  line-height: 1.5;
+  font-family: lato;
+}
+
+body {
+  background-color: #eee9de;
+}
+
+h1 {
+  font-family: lato, bold;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+div {
+  max-width: 25em;
+  display: inline-block;
+  padding: 1em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+section {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.button {
+  display: inline-block;
+  background-color: #eee9de;
+  border-radius: 8px;
+  border-color: #333;
+  border: solid;
+  color: #333;
+  text-decoration: none;
+  padding: .4em .75em .5em;
+}
+
+.button:hover {
+  background-color: #666;
+  color: #fff;
+  padding-top: 2em;
+}
