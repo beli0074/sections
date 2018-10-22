@@ -1,13 +1,19 @@
-html{
+html {
   line-height: 1.5;
-  font-family: lato;
+  font-family: Lato;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
+  margin: 0;
   background-color: #eee9de;
 }
 
-h1 {
+h2 {
   font-family: lato, bold;
 }
 
@@ -30,7 +36,7 @@ section {
   padding-bottom: 2em;
 }
 
-.button {
+.btn {
   display: inline-block;
   background-color: #eee9de;
   border-radius: 8px;
@@ -41,7 +47,7 @@ section {
   padding: .4em .75em .5em;
 }
 
-.button:hover {
+.btn:hover {
   background-color: #666;
   color: #fff;
   padding-top: 2em;
